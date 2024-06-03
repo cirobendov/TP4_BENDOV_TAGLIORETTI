@@ -15,8 +15,18 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Dictionary<string, string> Paquetes = new Dictionary<string, string>();
-        ViewBag.Paquetes = Paquetes;
+        
         return View();
     }
+    public IActionResult SelectPaquete(List<string> destinos, List<string> hoteles, List<string> excursiones)
+    {
+        ViewBag.destinos = destinos;
+        ViewBag.hoteles = hoteles;
+        ViewBag.excursiones = excursiones;  
+        return View();
+    }
+    IActionResult GuardarPaquete (int Destino, int Hotel, int Aereo, int Excursion)
+
+
+
 }
