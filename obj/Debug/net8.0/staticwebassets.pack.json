@@ -9,6 +9,114 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\acuario seul.jpg",
+      "PackagePath": "staticwebassets\\img\\acuario seul.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\air china.jpg",
+      "PackagePath": "staticwebassets\\img\\air china.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\american airlines.jpg",
+      "PackagePath": "staticwebassets\\img\\american airlines.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\ana airlines.jpg",
+      "PackagePath": "staticwebassets\\img\\ana airlines.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\delta.jpg",
+      "PackagePath": "staticwebassets\\img\\delta.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\emirates.jpg",
+      "PackagePath": "staticwebassets\\img\\emirates.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\excursion camp nou.jpg",
+      "PackagePath": "staticwebassets\\img\\excursion camp nou.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\excursion lago milan.jpg",
+      "PackagePath": "staticwebassets\\img\\excursion lago milan.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\excursion tulipanes.jpg",
+      "PackagePath": "staticwebassets\\img\\excursion tulipanes.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel amsterdam.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel amsterdam.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel bali.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel bali.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel barcelona.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel barcelona.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel cancun.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel cancun.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel frank.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel frank.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel milan.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel milan.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel nyc.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel nyc.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel paris.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel paris.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel seul.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel seul.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\hotel toronto.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel toronto.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\iberia.jpg",
+      "PackagePath": "staticwebassets\\img\\iberia.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\luftthansa.jpg",
+      "PackagePath": "staticwebassets\\img\\luftthansa.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\qatar airlines.jpg",
+      "PackagePath": "staticwebassets\\img\\qatar airlines.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\rock climbing.jpg",
+      "PackagePath": "staticwebassets\\img\\rock climbing.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\sightseen.jpg",
+      "PackagePath": "staticwebassets\\img\\sightseen.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\turkish airlines.jpg",
+      "PackagePath": "staticwebassets\\img\\turkish airlines.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\img\\united airlines.jpg",
+      "PackagePath": "staticwebassets\\img\\united airlines.jpg"
+    },
+    {
       "Id": "Z:\\Programacion 4to BEN_DOV\\TP4_BENDOV_TAGLIORETTI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

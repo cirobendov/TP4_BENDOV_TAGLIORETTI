@@ -25,7 +25,10 @@ public class HomeController : Controller
         ViewBag.excursiones = excursiones;  
         return View();
     }
-    IActionResult GuardarPaquete (int Destino, int Hotel, int Aereo, int Excursion)
+    //IActionResult GuardarPaquete (int Destino, int Hotel, int Aereo, int Excursion)
+    //{
+
+    //}
 
 
 

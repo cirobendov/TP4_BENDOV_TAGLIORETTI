@@ -11,7 +11,9 @@ static class ORTWorld
         if(Paquetes.ContainsKey(destinoSeleccionado))
         return false;
         else
-        return true;
+        {
+            Paquetes.Add(destinoSeleccionado, paquete);
+        }
     }
  
 }
