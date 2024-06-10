@@ -6,13 +6,14 @@ static class ORTWorld
     public static List< string > ListaExcursiones {get; private set;}= new List<string> {"acuario", "camp nou", "lago", "tulipanes", "rock", "sightseen", "ski", "city tour", "sagrada familia", "subir torre"};
     public static Dictionary<string, Paquete> Paquetes {get; private set;}
 
-    static bool IngresarPaquete(string destinoSeleccionado, Paquete paquete)
+    public static bool IngresarPaquete(string destinoSeleccionado, Paquete paquete)
     {
         if(Paquetes.ContainsKey(destinoSeleccionado))
         return false;
         else
         {
             Paquetes.Add(destinoSeleccionado, paquete);
+            return true;
         }
     }
  

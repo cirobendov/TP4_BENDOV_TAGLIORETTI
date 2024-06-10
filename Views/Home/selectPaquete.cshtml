@@ -1,7 +1,7 @@
 <p>Elija su destino<p><br>
 <form method = "post" name = "Destino">
 
-@for(int i = 0; i < ViewBag.destinos.Count; i++;)
+@for(int i = 0; i < ViewBag.destinos.Count; i++)
 {
     <p>{(i.OrtWorld.ListaDestinos[i])}<p>
 }
@@ -10,27 +10,28 @@
 
 <p>Elija su hotel<p><br>
 <form method = "post" name = "Hotel">
-@{for(int i = 0; i < ViewBag.hotel.Count; i++;)
+@for(int i = 0; i < ViewBag.hotel.Count; i++)
 {
     <p>{(i.OrtWorld.ListaHotel[i])}<p>
-}}
+}
 <input type = "number" max = "10" min = "1" step = "1">
 <form>
 
 <p>Elija su aereo<p><br>
 <form method = "post" name = "Aereo">
-@{for(int i = 0; i < ViewBag.aereo.Count; i++;)
+@for(int i = 0; i < ViewBag.aereo.Count; i++)
 {
     <p>{(i.OrtWorld.ListaAereo[i])}<p>
-}}
+}
 <input type = "number" max = "10" min = "1" step = "1">
 <form>
 
 <p>Elija su excursion<p><br>
 <form method = "post" name = "Excursión">
-@{for(int i = 0; i <ViewBag.excursion.Count; i++;)
+@for(int i = 0; i <ViewBag.excursion.Count; i++)
 {
     <p>{(i.OrtWorld.ListaExcursiones[i])}<p>
-}}
+}
 <input type = "number" max = "10" min = "1" step = "1">
+<input type = "submit" Action = "GuardarPaquete">
 <form>

@@ -25,10 +25,42 @@ public class HomeController : Controller
         ViewBag.excursiones = excursiones;  
         return View();
     }
-    //IActionResult GuardarPaquete (int Destino, int Hotel, int Aereo, int Excursion)
-    //{
+    public IActionResult GuardarPaquete (int Destino, int Hotel, int Aereo, int Excursion)
+    {
+        if(Destino < 0 || Destino >= ORTWorld.ListaDestinos.Count || 
+        Hotel < 0 || Hotel >= ORTWorld.ListaHoteles.Count || 
+        Aereo < 0 || Aereo >= ORTWorld.ListaAereos.Count || 
+        Excursion < 0 || Excursion >= ORTWorld.ListaExcursiones.Count)
+        {
+            ViewBag.Error = ("Todos los parametros deben ser completados");
+            
+            ViewBag.ListaDestinos = ORTWorld.ListaDestinos;
+            ViewBag.ListaHoteles = ORTWorld.ListaHoteles;
+            ViewBag.ListaAereos = ORTWorld.ListaAereos;
+            ViewBag.ListaExcursiones = ORTWorld.ListaExcursiones;
 
-    //}
+            return View ("SelectPaquete");
+        }
+
+        Paquete paqueteNuevo = new Paquete (hotel : ORTWorld.ListaHoteles[Hotel], aereo : ORTWorld.ListaAereos[Aereo], excursion : ORTWorld.ListaExcursiones[Excursion]);
+
+        string destinoSeleccionado = ORTWorld.ListaDestinos[Destino];
+        if(ORTWorld.IngresarPaquete(ORTWorld.ListaDestinos[Destino-1], paqueteNuevo))
+        {
+            return RedirectToAction("Index");
+        }
+        else
+        {
+            ViewBag.Error = ("El destino ya ha sido seleccionado");
+            
+            ViewBag.ListaDestinos = ORTWorld.ListaDestinos;
+            ViewBag.ListaHoteles = ORTWorld.ListaHoteles;
+            ViewBag.ListaAereos = ORTWorld.ListaAereos;
+            ViewBag.ListaExcursiones = ORTWorld.ListaExcursiones;
+
+            return View ("SelectPaquete");
+        }
+    }
 
 
 
